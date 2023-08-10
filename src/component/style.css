@@ -1,0 +1,209 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+ 
+  
+  
+/* Header */
+header {
+    background-color: #3498db;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5.5vh;
+  }
+  .peplogo{
+    height: 7vh;
+    width:7vw;
+  }
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  nav{
+    width: 50%;
+  }
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav ul li {
+    margin-right: 1rem;
+    display: inline;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+    display: inline-block;
+  }
+  
+  nav ul li a:hover {
+    color: #203ca2;
+    text-decoration: underline;
+    transform: scale(1.5);
+  }
+  .logos{
+    height: 15px;
+    width: 20px;
+    margin-top: 1vh;
+  }
+  .rightheader{
+    display: flex;
+    justify-content: space-between;
+    width: 15%;
+  }
+  .rightheader input{
+    border-radius: 16px;
+    width: 7vw;
+    border: none;
+  }
+
+  /* JobListing */
+  hr{
+    margin-top: 10vh;
+    border-color: aqua;
+  }
+.job-listing {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+  
+  .job-card {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin: 1rem;
+    width: 300px;
+    box-shadow: 0 4px 6px rgb(17 230 218 / 50%);
+  }
+  
+  .job-card h3 {
+    margin-top: 0;
+  }
+  
+  .job-card p {
+    margin: 0.5rem 0;
+  }
+  
+  .job-card button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 31%;
+  }
+  
+  .job-card button:hover {
+    background-color: #2980b9;
+    transform: scale(1.5);
+  }
+  .requirements{
+    font-size: 1rem !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
+    color: black !important;
+    
+  }
+
+/* Careers.css */
+.careers-page {
+    padding: 2rem;
+  }
+  .careers-page p{
+    font-family: 'Times New Roman', Times, serif !important;
+    font-size: 1.1rem;
+    margin-top: 5vh;
+   
+  }
+  .careers-page h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+    
+  .careers-page h3 {
+    margin-top: 3vh;
+    margin-bottom: 1rem;
+  }
+
+  .image {
+    position: relative;
+    margin-top: -5vh;
+    background: url('https://www.coe-iot.com/blog/wp-content/uploads/2021/08/20210730_152014.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    box-shadow: 4px 4px 8px aqua;
+  }
+  
+  .image::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(47, 138, 230, 0.6);
+    z-index: 1;
+  }
+  .content{
+    position: relative;
+    z-index: 2;
+    color: white;
+   padding-top: 5vh;
+   padding-left: 3vw;
+   padding-right: 3vw;
+   text-align: center;
+   animation: fadeIn 1s ease-in-out; 
+  }
+  .content:hover{
+    transform: scale(1.05);
+
+  }
+  .content h1{
+    text-align: center;
+ 
+  }
+  .content p{
+    font-size: 1.2rem;
+  }
+ 
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+@keyframes fadeInOut {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+  }
+  
+  .hiring {
+    text-align: center;
+    animation: fadeInOut 2s ease-in-out infinite; 
+    font-size: 1.5rem;
+    color: #8b0000;
+  }
+  
+  
+  
+  
+  
