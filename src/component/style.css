@@ -102,7 +102,7 @@ header {
     padding: 0.5rem 1rem;
     cursor: pointer;
     transition: background-color 0.3s;
-    margin-left: 31%;
+    margin-left: 40%;
   }
   
   .job-card button:hover {
@@ -116,7 +116,7 @@ header {
     
   }
 
-/* Careers.css */
+/* Careers */
 .careers-page {
     padding: 2rem;
   }
