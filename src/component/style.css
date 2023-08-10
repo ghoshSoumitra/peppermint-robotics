@@ -129,8 +129,11 @@ header {
   .careers-page h1 {
     font-size: 2rem;
     margin-bottom: 1rem;
+
   }
-    
+   .careers-page h2{
+    text-align: center;
+   } 
   .careers-page h3 {
     margin-top: 3vh;
     margin-bottom: 1rem;
@@ -203,7 +206,78 @@ header {
     color: #8b0000;
   }
   
-  
+  /* style.css */
+.apply-page-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100; /* Ensure the ApplyPage is on top of other content */
+}
+
+.apply-page-bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7); /* Adjust the alpha value to control the blur intensity */
+  backdrop-filter: blur(5px); /* Adjust the blur radius as needed */
+}
+
+/* Add any additional styling for the ApplyPage content */
+/* style.css */
+.apply-page {
+  /* Center the content vertically and horizontally */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.application-form {
+  width: 400px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f8f8f8;
+}
+
+.form-field {
+  margin-bottom: 15px;
+}
+
+.form-field label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-field input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.form-field button {
+  width: 100%;
+  padding: 10px;
+  background-color: #203ca2;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.form-field button:hover {
+  background-color: #10205b;
+}
+
   
   
   
